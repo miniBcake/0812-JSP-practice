@@ -50,7 +50,7 @@
 						}
 						else{//재고가 있다면
 							out.println("<input type='checkbox' name='product' value='"+data.getNum()+"'>");
-							out.println("<a href='productInfoController.jsp?num="+data.getNum()+"'>[상품명] "+data.getName()
+							out.println("<a href='ctrl.jsp?action=PRODUCT&num="+data.getNum()+"'>[상품명] "+data.getName()
 							+", [수량] "+data.getCnt()+"개, [가격] "+data.getPrice()+"원</a>");
 						}
 						out.println("</li>");

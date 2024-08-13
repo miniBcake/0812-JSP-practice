@@ -25,7 +25,7 @@
     }
     %>
     <!-- 1.상품 목록 출력, 상품 선택 버튼, 2.상품 검색버튼 -->
-	<form action="productController.jsp" method="POST">
+	<form action="ctrl.jsp" method="POST">
 		<input type="hidden" name="action" value="ADDCART">
 		<h3>상품 정보</h3>
 		<%
